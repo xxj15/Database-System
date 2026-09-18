@@ -23,14 +23,14 @@
 6. **Customer Purchase Patterns** : 멤버십 고객이 커피와 함께 가장 자주 구매한 상품 Top 3
 7. **Franchise vs. Corporate Comparison** : 프랜차이즈 중 가장 다양한 상품을 제공하는 매장과 본사 직영점 비교
 
-## Project 2. ODBC를 활용한 물류관리 시스템 구현
+## Project 2. MySQL C API를 활용한 물류관리 시스템 구현
 
 ### 목표
 
-Project 1에서 설계한 구조를 기반으로 MySQL + ODBC 환경에서 실제 물류 관리 시스템을 구현한다.
+Project 1에서 설계한 구조를 기반으로 MySQL 환경에서 실제 물류 관리 시스템을 구현한다.
 
 ### 구현사항
 
 - Logical / Physical Schema 설계 및 BCNF 정규화
 - MySQL Workbench를 활용한 데이터베이스 구축
-- C/C++ 및 ODBC API를 이용한 SQL 질의 실행 프로그램 구현
+- C 및 MySQL C API를 이용한 SQL 질의 실행 프로그램 구현
